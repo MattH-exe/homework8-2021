@@ -6,7 +6,7 @@ var color = 'rgb(255, 0, 0)';
 
 var canvas = document.querySelector("#canvas")
 var ctx = canvas.getContext("2d");
-var colorPicker = document.querySelector("input");
+// var colorPicker = document.querySelector("input");
 
 var Drawing = true;
 
@@ -42,7 +42,6 @@ window.addEventListener("input", function(e) {
 //Listener for the various keydowns with switch cases
 document.addEventListener('keydown', function(e){
 	console.log("event listener triggered: keypress");
-	console.log(e)
 	console.log(e.key)
 		// switch cases
 		switch(e.key){
