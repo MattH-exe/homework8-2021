@@ -23,8 +23,8 @@ document.addEventListener('load', resizeCanvas());
 
 // Handles tracing mouse movement and changing draw-values accordingly
 	canvas.addEventListener('mousemove', function(e) {
-		console.log(e.pageX);
-		console.log(e.pageY);
+		//console.log(e.pageX);
+		//console.log(e.pageY);
 		x = e.pageX;
 		y = e.pageY;
 		if (Drawing === true) {
@@ -97,7 +97,7 @@ window.addEventListener('resize', function(){
 // Functions!
 // This draws the circle
 function drawCircle(){
-	console.log("I am going to draw!!");
+	//console.log("I am going to draw!!");
 	ctx.beginPath();
 	ctx.fillStyle = color;
 	ctx.arc(x,y,radius,0, 2*Math.PI);
